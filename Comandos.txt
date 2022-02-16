@@ -1,0 +1,35 @@
+git init - Transforma a pasta em um repositorio git
+
+git ls-files - Mostra quais são os arquivos que estão sendo controlados com o git
+
+git status - Mostra o status do repositorio para o git
+
+git add nomedoarquivo - Adiciona novos arquivos ao controle do git e também arquivos alterados
+
+git add nomedodiretorio - Adiciona um diretorio inteiro ao controle do git
+
+git add arquivo1 arquivo2 - Adiciona os dois arquivos ao controle do git
+
+git add . - Adiciona todos os arquivos contidos no diretorio
+
+git commit -m "Mensagem a ser exibida, ex: Criando o projeto"- Grava as alterações para o repositorio
+
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+
+git add -i - Abre um menu interativo no cmd, para ajudar com as modificações, e com o que vai e o que não vai pro commit
+
+git commit -a - inclui imediatamente no commit todos os arquivos modificados ou removidos! Porém, ela não adiciona os arquivos novos.
+    Podemos combinar a opção de mensagem com git commit -a -m 'Mensagem de commit' 
+    para não precisar escrever a mensagem no editor padrão do console
+
+git commit - O comando git commit pode também ser utilizado sem passar a opção -m. 
+    Neste caso, o editor de texto padrão de seu terminal vai abrir para que você digite a mensagem de commit. 
+    Ao salvar, caso a mensagem não esteja vazia, o commit será criado
+
+git log - Mostra todas as commits do repositorio
+
+git whatchanged - Mostra todas as comits e quais foram os arquivos alterados
+
+git whatchanged -p - Mostra todas as comits, quais foram os arquivos alterados e o que exatamente foi alterado
