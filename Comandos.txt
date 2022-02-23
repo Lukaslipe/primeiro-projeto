@@ -33,3 +33,5 @@ git log - Mostra todas as commits do repositorio
 git whatchanged - Mostra todas as comits e quais foram os arquivos alterados
 
 git whatchanged -p - Mostra todas as comits, quais foram os arquivos alterados e o que exatamente foi alterado
+
+git branch design - Cria uma nova branch, nesse caso com o nome "design"
